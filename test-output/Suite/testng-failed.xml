@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.java.Integration.FunctionalRest.LoginTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="media"/>
+          <include name="accessibility"/>
+          <include name="login"/>
+          <include name="dashboard"/>
+        </methods>
+      </class> <!-- test.java.Integration.FunctionalRest.LoginTestCase -->
+      <class name="test.java.Integration.FunctionalRest.RestApi">
+        <methods>
+          <include name="GetUser"/>
+          <include name="CreateUser"/>
+          <include name="DeleteUser"/>
+        </methods>
+      </class> <!-- test.java.Integration.FunctionalRest.RestApi -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

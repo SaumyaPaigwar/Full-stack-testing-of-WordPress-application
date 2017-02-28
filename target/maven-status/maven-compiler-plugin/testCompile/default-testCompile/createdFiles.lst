@@ -1,0 +1,7 @@
+test\java\Integration\FunctionalRest\GridInfoExtractor.class
+test\java\Integration\FunctionalRest\LogOut.class
+test\java\Integration\FunctionalRest\RestApi.class
+test\java\Integration\FunctionalRest\LoginTestCase.class
+test\java\Integration\FunctionalRest\ReadCsv.class
+test\java\Integration\FunctionalRest\ReadFile.class
+test\java\Integration\FunctionalRest\MobileTestCase.class

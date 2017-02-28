@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 3, Errors: 0, Skipped: 15, Time elapsed: 139.961 sec <<< FAILURE! - in TestSuite
+launchbrowser(test.java.Integration.FunctionalRest.LoginTestCase)  Time elapsed: 0.655 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+Command duration or timeout: 281 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'NGD24104', ip: '169.254.59.156', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_11'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at test.java.Integration.FunctionalRest.LoginTestCase.launchbrowser(LoginTestCase.java:319)
+Caused by: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+
+ValidMedia(test.java.Integration.FunctionalRest.MobileTestCase)  Time elapsed: 73.392 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 919 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'NGD24104', ip: '169.254.59.156', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_11'
+*** Element info: {Using=name, value=VID_20161123_101712.mp4}
+Session ID: 6073b087-b59f-4052-b6a2-2e45fba5a870
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platformVersion=5.1.1, platform=LINUX, databaseEnabled=false, javascriptEnabled=true, platformName=Android, deviceName=6a94c369, browserName=Android, appium-version=1.4.16.1, webStorageEnabled=false, networkConnectionEnabled=true, desired={deviceName=6a94c369, platformName=Android, appium-version=1.4.16.1}, locationContextEnabled=false, warnings={}, takesScreenshot=true}]
+	at test.java.Integration.FunctionalRest.MobileTestCase.ValidMedia(MobileTestCase.java:91)
+
+WrongLogin(test.java.Integration.FunctionalRest.MobileTestCase)  Time elapsed: 8.576 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 552 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'NGD24104', ip: '169.254.59.156', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_11'
+*** Element info: {Using=id, value=org.wordpress.android:id/nux_username}
+Session ID: 6073b087-b59f-4052-b6a2-2e45fba5a870
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{platformVersion=5.1.1, platform=LINUX, databaseEnabled=false, javascriptEnabled=true, platformName=Android, deviceName=6a94c369, browserName=Android, appium-version=1.4.16.1, webStorageEnabled=false, networkConnectionEnabled=true, desired={deviceName=6a94c369, platformName=Android, appium-version=1.4.16.1}, locationContextEnabled=false, warnings={}, takesScreenshot=true}]
+	at test.java.Integration.FunctionalRest.MobileTestCase.WrongLogin(MobileTestCase.java:109)
+

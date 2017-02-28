@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [FunctionalSuite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.java.Integration.FunctionalRest.LoginTestCase">
+        <methods>
+          <include name="accessibility"/>
+          <include name="login"/>
+          <include name="dashboard"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- test.java.Integration.FunctionalRest.LoginTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FunctionalSuite] -->

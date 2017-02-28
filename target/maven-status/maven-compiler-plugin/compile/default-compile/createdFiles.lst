@@ -1,0 +1,14 @@
+test\java\Integration\FunctionalRest\LogOut.class
+main\java\com\util\pages\Login.class
+test\java\Integration\FunctionalRest\RestApi.class
+main\java\com\util\pages\Dashboard.class
+main\java\com\util\pages\PostMobile.class
+test\java\Integration\FunctionalRest\ReadCsv.class
+test\java\Integration\FunctionalRest\GridInfoExtractor.class
+main\java\com\util\pages\LoginMobile.class
+main\java\com\util\pages\MediaMobile.class
+main\java\com\util\pages\Media.class
+test\java\Integration\FunctionalRest\LoginTestCase.class
+test\java\Integration\FunctionalRest\ReadFile.class
+main\java\com\util\pages\LogOutMobile.class
+test\java\Integration\FunctionalRest\MobileTestCase.class
