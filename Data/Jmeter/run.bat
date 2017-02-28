@@ -1,0 +1,1 @@
+C:\apache-jmeter-2.13\bin\jmeter.bat -J jmeter.save.saveservice.output_format=xml -n -t C:\Users\Administrator\Desktop\Jmeter\jmeterRunning.jmx -l jmeterRunning.jtl
